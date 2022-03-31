@@ -567,7 +567,11 @@ function cheatNow() {
         money = 100000;
         weed = 100000;
         fertilizer = 100000;
-    };
+    }
+	else if (cheat == 'secret') {
+	  money += 100000000
+	  weed += 100000000
+	  fertilizer += 100000000;
 }
 
 function saveGame(useTextfield) {
