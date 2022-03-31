@@ -571,8 +571,9 @@ function cheatNow() {
 	else if (cheat == 'secret') {
 	  money += 100000000
 	  weed += 100000000
-	  fertilizer += 100000000;
-}
+	  fertilizer += 100000000
+    }
+};
 
 function saveGame(useTextfield) {
     var saveRaw = Math.round(money) + "%" + Math.round(weed) + "%" + Math.round(fertilizer) + "%" + facilities[0][0] + "%" + facilities[1][0] + "%" + facilities[2][0] + "%" + facilities[3][0] + "%" + facilities[4][0] + "%" + facilities[5][0] + "%" + facilities[6][0] + "%" + facilities[7][0] + "%" + facilities[8][0] + "%" + facilities[9][0] + "%" + facilities[10][0] + "%" + facilities[11][0] + "%" + facilities[12][0] + "%" + facilities[13][0] + "%" + facilities[14][0] + "%" + facilities[15][0] + "%" + facilities[16][0] + "%" + facilities[17][0] + "%" + facilities[18][0] + "%" + facilities[19][0] + "%" + facilities[20][0] + "%" + facilities[21][0] + "%" + facilities[22][0] + "%" + facilities[23][0] + "%" + facilities[24][0] + "%" + facilities[25][0] + "%" + facilities[26][0] + "%" + facilities[27][0] + "%" + coffeeMod + "%" + particlesDeactivated + "%" + softAnimations + "%" + expandAnimations;
